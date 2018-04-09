@@ -1,22 +1,27 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron": "^1.8.4"
-  }
+	"name": "duck",
+	"version": "1.0.0",
+	"description": "A digital friend for rubber duck debugging",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jessemillar/duck.git"
+	},
+	"keywords": [
+		"Electron",
+		"rubber duck",
+	],
+	"author": "Jesse Millar",
+	"license": "CC0-1.0",
+	"devDependencies": {
+		"electron": "^1.8.4"
+	},
+	"bugs": {
+		"url": "https://github.com/jessemillar/duck/issues"
+	},
+	"homepage": "https://github.com/jessemillar/duck",
+	"dependencies": {}
 }
