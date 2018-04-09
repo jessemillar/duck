@@ -1,5 +1,5 @@
 {
-	"name": "duck",
+	"name": "Duck",
 	"version": "1.0.0",
 	"description": "A digital friend for rubber duck debugging",
 	"main": "main.js",
