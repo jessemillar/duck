@@ -6,6 +6,7 @@ Inspired by (and stolen from) the [Stack Exchange rubber duck April Fools' joke]
 ![Rubber Duck](duck.svg)
 
 ## Installation
+### Binary
 The easiest option for installation is to download a pre-compiled binary from the [releases page](https://github.com/jessemillar/duck/releases). If you wish to work with the source, follow the instructions below:
 
 ### Run from Code
