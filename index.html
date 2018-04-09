@@ -17,4 +17,10 @@
 	<img id="duck" src="duck.svg" />
 </body>
 
+<script>
+	document.getElementById("duck").ondragstart = function() {
+		return false;
+	};
+</script>
+
 </html>

@@ -21,5 +21,5 @@ npm start
 npm install electron-packager -g
 git clone https://github.com/jessemillar/duck.git
 cd duck
-electron-packager . --out dist
+electron-packager . --out dist --prune true --icon duck.icns --overwrite
 ```

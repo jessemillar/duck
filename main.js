@@ -16,6 +16,7 @@ function createWindow() {
 	mainWindow = new BrowserWindow({
 		width: 200,
 		height: 200,
+		alwaysOnTop: true,
 		transparent: true,
 		frame: false
 	})
