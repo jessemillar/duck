@@ -5,22 +5,39 @@
 	<meta charset="UTF-8">
 	<title>Duck</title>
 	<style>
+		.outer {
+			display: table;
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+
+		.middle {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.inner {
+			margin-left: auto;
+			margin-right: auto;
+			width: 300px;
+		}
+
 		#duck {
 			width: 100%;
 			height: auto;
-			-webkit-app-region: drag;
 		}
 	</style>
 </head>
 
 <body>
-	<img id="duck" src="duck.svg" />
+	<div class="outer">
+		<div class="middle">
+			<div class="inner">
+				<center><img id="duck" src="duck.svg" /></center>
+			</div>
+		</div>
+	</div>
 </body>
-
-<script>
-	document.getElementById("duck").ondragstart = function() {
-		return false;
-	};
-</script>
 
 </html>
